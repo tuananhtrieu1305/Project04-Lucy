@@ -8,6 +8,7 @@
 }
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 body {
   font-size: 1.6rem;
@@ -261,4 +262,113 @@ a {
 }
 .bgc-arrow {
   color: #fffaf5;
+}
+/* About */
+.about {
+  background-color: var(--bgc-01);
+}
+.about-container {
+  padding: 53px 0 183px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-content {
+  width: 40.7%;
+  margin-top: 137px;
+}
+.about-sub-heading {
+  color: #5e6085;
+  font-family: var(--secondary-font);
+  font-weight: 600;
+}
+.about-heading {
+  margin-top: 15px;
+}
+.about-desc {
+  margin-top: 24px;
+  max-width: 431px;
+}
+.about-list {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 36px 34px;
+}
+.about-item {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
+.about-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff5d31;
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+}
+.about-item-icon svg {
+  color: #fff2e5;
+}
+.about-item-title {
+  color: #48496a;
+  font-size: 1.8rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.about-media {
+  width: 54.4%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.about-img-wrap {
+  width: 494px;
+  height: 336px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, #fce0ef 0%, #fac3d1 100%);
+  box-shadow: 11px 18px 65px 0px rgba(255, 155, 121, 0.12);
+  position: relative;
+  right: 0;
+  top: 181px;
+}
+.about-img {
+  position: absolute;
+  bottom: 0;
+  right: 21px;
+}
+.about-img-wrap img:last-child {
+  position: absolute;
+  top: 157px;
+  left: 411px;
+}
+.about-stat {
+  width: 136px;
+  height: 156px;
+  padding: 31px 26px 29px;
+  border-radius: 10px;
+  background: #5bd6e2;
+  box-shadow: -15px 26px 48px 0px rgba(85, 240, 255, 0.17);
+  position: relative;
+  left: 44px;
+  top: 114px;
+}
+.about-decor {
+  position: absolute;
+  top: -40px;
+  left: 85px;
+}
+.about-stat-heading {
+  color: #fff;
+  font-size: 4.2rem;
+}
+.about-stat-desc {
+  margin-top: 14px;
+  color: #c6f4f9;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 142.857%;
+  display: block;
 }
