@@ -1,0 +1,99 @@
+:root {
+  --primary-font: "Poppins", sans-serif;
+  --secondary-font: "Sora", sans-serif;
+  --bgc-01: #fffaf5;
+  --deep-color: #000958;
+  --primary-color: #ff5b2e;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  font-family: var(--primary-font);
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1170px;
+  max-width: calc(100% -48px);
+  margin: 0 auto;
+}
+.btn {
+  --height: 56px;
+  height: var(--height);
+  text-align: center;
+  font-weight: 600;
+  line-height: var(--height);
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid var(--primary-color);
+  cursor: pointer;
+}
+.btn-1 {
+  transition: all 0.2s linear;
+}
+.btn-1,
+.btn-2:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
+.btn-1:hover {
+  opacity: 0.8;
+}
+.btn-2 {
+  color: var(--primary-color);
+  background-color: transparent;
+  transition: all 0.2s linear;
+}
+/* Header */
+.header {
+  background-color: var(--bgc-01);
+  padding: 14px 0 88px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 211px;
+  padding: 12px 0;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+.header-item {
+  padding: 9px 18px;
+}
+.header-link {
+  color: #5e6085;
+  font-size: 1.4rem;
+  font-weight: 500;
+  display: block;
+}
+.header-link::before {
+  content: attr(title);
+  display: block;
+  font-weight: 600;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+.header-link:hover,
+.header-link.active {
+  color: var(--deep-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+.sign-up-btn {
+  --height: 50px;
+  min-width: 117px;
+  border: 1px solid rgba(0, 9, 88, 0.7);
+  font-size: 1.4rem;
+  transition: all 0.2s linear;
+}
+.sign-up-btn:hover {
+  background-color: var(--deep-color);
+  color: #fff;
+}
