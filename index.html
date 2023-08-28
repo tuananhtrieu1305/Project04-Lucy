@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lucy - Established & Trusted Pet Care Service</title>
+    <title>Lucy</title>
     <!-- Favicon -->
     <link
       rel="apple-touch-icon"
@@ -85,39 +85,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sora:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Sora:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
   </head>
   <body style="height: 5000px">
     <header class="header">
       <div class="container header-container">
-        <figure>
-          <a href="#"
-            ><img src="./assets/img/logo.svg" alt="Lucy" class="header-logo"
-          /></a>
-        </figure>
-        <nav class="navbar">
-          <ul class="header-list">
-            <li class="header-item">
-              <a href="#" class="header-link active" title="Home">Home</a>
+        <a href="#">
+          <img src="./assets/images/logo.svg" alt="Lucy" class="header-logo" />
+        </a>
+        <nav class="header-nav">
+          <ul class="header-menu">
+            <li class="header-menu-item">
+              <a href="#!" class="header-menu-link active" title="Home">Home</a>
             </li>
-            <li class="header-item">
-              <a href="#about" class="header-link" title="About">About</a>
+            <li class="header-menu-item">
+              <a href="#!" class="header-menu-link" title="About">About</a>
             </li>
-            <li class="header-item">
-              <a href="#services" class="header-link" title="Services & Rates"
+            <li class="header-menu-item">
+              <a href="#!" class="header-menu-link" title="Services & Rates"
                 >Services & Rates</a
               >
             </li>
-            <li class="header-item">
-              <a href="#reviews" class="header-link" title="Reviews">Reviews</a>
+            <li class="header-menu-item">
+              <a href="#!" class="header-menu-link" title="Reviews">Reviews</a>
             </li>
-            <li class="header-item">
-              <a href="#contact" class="header-link" title="Contacts"
+            <li class="header-menu-item">
+              <a href="#!" class="header-menu-link" title="Contacts us"
                 >Contacts us</a
               >
             </li>
@@ -129,56 +128,75 @@
     <main>
       <section class="hero">
         <div class="container hero-container">
-          <figure class="hero-media">
-            <figure>
-              <div class="hero-img-wrapper">
-                <img
-                  src="./assets/img/hero-1.png"
-                  alt="Established & Trusted Pet Care Service"
-                  class="hero-img"
-                />
+          <div class="hero-media">
+            <figure class="hero-media-wrap">
+              <img
+                src="./assets/images/hero-img-cat.png"
+                alt=""
+                class="hero-img"
+              />
+              <img
+                src="./assets/images/hero-art-1.svg"
+                alt=""
+                class="hero-art hero-art-left"
+              />
+              <img
+                src="./assets/images/hero-art-2.svg"
+                alt=""
+                class="hero-art hero-art-right"
+              />
+            </figure>
+            <figure class="hero-media-wrap hero-media-wrap-small">
+              <img
+                src="./assets/images/hero-img-dog.png"
+                alt=""
+                class="hero-img hero-img-small"
+              />
+            </figure>
+            <figure class="hero-decor-wrap">
+              <div class="hero-decor">
+                <figure>
+                  <img
+                    src="./assets/images/hero-img-dog-2.png"
+                    alt=""
+                    class="hero-decor-img"
+                  />
+                </figure>
+                <div class="hero-decor-content">
+                  <div class="heading">Pet Health</div>
+                  <div class="hero-decor-desc"></div>
+                  <div class="hero-decor-desc"></div>
+                </div>
               </div>
-              <img
-                class="hero-art-1"
-                src="./assets/img/hero-art-1.svg"
-                alt=""
-              />
-              <img
-                class="hero-art-2"
-                src="./assets/img/hero-art-2.svg"
-                alt=""
-              />
-              <div class="hero-img-wrapper">
-                <img
-                  src="./assets/img/hero-2.png"
-                  alt="Established & Trusted Pet Care Service"
-                  class="hero-img"
-                />
+              <div class="hero-decor-separate"></div>
+              <div class="hero-decor">
+                <figure>
+                  <img
+                    src="./assets/images/hero-img-dog-3.png"
+                    alt=""
+                    class="hero-decor-img"
+                  />
+                </figure>
+                <div class="hero-decor-content">
+                  <div class="heading">Pet care</div>
+                  <div class="hero-decor-desc"></div>
+                  <div class="hero-decor-desc"></div>
+                </div>
               </div>
             </figure>
-            <div class="hero-stat">
-              <div class="hero-stat-item">
-                <img src="https://source.unsplash.com/random" alt="" />
-                <span>Pet Health</span>
-              </div>
-              <div class="hero-stat-item">
-                <img src="https://source.unsplash.com/random" alt="" />
-                <span>Pet care</span>
-              </div>
-            </div>
-          </figure>
-          <section class="hero-content">
-            <h1 class="heading hero-heading">
+          </div>
+          <div class="hero-content">
+            <h1 class="hero-heading heading">
               Established & Trusted Pet Care Service
             </h1>
             <p class="desc hero-desc">
-              Discover a wide variety of Pawsitive services to choose from,
+              Discover a wide variety of Positive services to choose from,
               including daycare, private walks, office duty and spa.
             </p>
-            <div class="hero-contact">
-              <button class="btn btn-1 hero-btn">
+            <div class="hero-cta">
+              <button class="btn hero-btn btn-2">
                 <span>Book a Meet</span>
-                <div class="hero-right-arrow">
+                <figure>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="39"
@@ -187,17 +205,11 @@
                     fill="none"
                   >
                     <g filter="url(#filter0_d_11_1236)">
-                      <circle
-                        class="bgc-arrow"
-                        cx="15.4858"
-                        cy="16"
-                        r="10"
-                        fill="currentColor"
-                      />
+                      <circle cx="15.4858" cy="16" r="10" fill="#FFFAF5" />
                     </g>
                     <path
                       d="M14.4858 13.5L16.9858 16L14.4858 18.5"
-                      stroke="currentColor"
+                      stroke="#FD5056"
                       stroke-linecap="round"
                       stroke-linejoin="round"
                     />
@@ -248,180 +260,11 @@
                       </filter>
                     </defs>
                   </svg>
-                </div>
+                </figure>
               </button>
-              <a href="#!">
-                <span class="desc">Schedule a Call</span>
-              </a>
+              <a href="#!" class="hero-call">Schedule a Call</a>
             </div>
-          </section>
-        </div>
-      </section>
-      <section id="about" class="about">
-        <div class="container about-container">
-          <section class="about-content">
-            <span class="about-sub-heading">// About //</span>
-            <h2 class="heading about-heading">Best Agency For Your Pet.</h2>
-            <p class="desc about-desc">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-            <div class="about-list">
-              <div class="about-item">
-                <figure class="about-item-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="10"
-                    viewBox="0 0 15 10"
-                    fill="none"
-                  >
-                    <path
-                      d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </figure>
-                <span class="about-item-title">Certified Groomer</span>
-              </div>
-              <div class="about-item">
-                <figure class="about-item-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="10"
-                    viewBox="0 0 15 10"
-                    fill="none"
-                  >
-                    <path
-                      d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </figure>
-                <span class="about-item-title">Animal Lover</span>
-              </div>
-              <div class="about-item">
-                <figure class="about-item-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="10"
-                    viewBox="0 0 15 10"
-                    fill="none"
-                  >
-                    <path
-                      d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </figure>
-                <span class="about-item-title">14+ Years Experience</span>
-              </div>
-              <div class="about-item">
-                <figure class="about-item-icon">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="15"
-                    height="10"
-                    viewBox="0 0 15 10"
-                    fill="none"
-                  >
-                    <path
-                      d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                      stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </figure>
-                <span class="about-item-title">Pet Parent Of 3 Dogs</span>
-              </div>
-            </div>
-          </section>
-          <figure class="about-media">
-            <figure class="about-img-wrap">
-              <img
-                srcset="./assets/img/about-img-1.png 2x"
-                alt="Best Agency For
-              Your Pet."
-                class="about-img"
-              />
-              <img src="./assets/img/rain.svg" alt="" />
-            </figure>
-            <div class="about-stat">
-              <img
-                src="./assets/img/about-stat.svg"
-                alt=""
-                class="about-decor"
-              />
-              <h3 class="heading about-stat-heading">20+</h3>
-              <span class="desc about-stat-desc">Years Experience</span>
-            </div>
-          </figure>
-        </div>
-      </section>
-      <section class="feature">
-        <div class="container feature-container">
-          <figure class="feature-media">
-            <img
-              srcset="./assets/img/feature-img.png 2x"
-              alt="Taking A Vacation?
-            So Is Your Pet."
-            />
-            <img src="./assets/img/feature-decor-1.svg" alt="" />
-            <img src="./assets/img/feature-decor-2.svg" alt="" />
-            <img src="./assets/img/feature-decor-3.svg" alt="" />
-            <img src="./assets/img/feature-decor-4.svg" alt="" />
-            <img src="./assets/img/feature-decor-5.svg" alt="" />
-            <img src="./assets/img/feature-decor-6.svg" alt="" />
-          </figure>
-          <section class="feature-content">
-            <h2 class="heading feature-heading">
-              Taking A Vacation? So Is Your Pet.
-            </h2>
-            <p class="desc feature-desc">
-              We offer long-term and short-term boarding. Every dog has its own
-              private, spacious room and daily individual time in our large play
-              yard.
-            </p>
-            <div class="feature-list">
-              <div class="feature-item">
-                <figure class="feature-item-icon">
-                  <img src="./assets/img/boarding.svg" alt="Pet Boarding" />
-                </figure>
-                <h3 class="heading feature-item-title">Pet Boarding</h3>
-              </div>
-              <div class="feature-item">
-                <figure class="feature-item-icon">
-                  <img src="./assets/img/daycare.svg" alt="Pet Daycare" />
-                </figure>
-                <h3 class="heading feature-item-title">Pet Daycare</h3>
-              </div>
-              <div class="feature-item">
-                <figure class="feature-item-icon">
-                  <img src="./assets/img/transport.svg" alt="Pet Transport" />
-                </figure>
-                <h3 class="heading feature-item-title">Pet Transport</h3>
-              </div>
-            </div>
-            <div class="separate"></div>
-            <p class="desc feature-sub-desc">
-              While you're on holiday, here's where your furry friends will
-              spend their time.
-            </p>
-            <a href="#!" class="feature-btn">View more</a>
-          </section>
+          </div>
         </div>
       </section>
     </main>
