@@ -490,3 +490,121 @@ a {
   font-weight: 500;
   display: inline-block;
 }
+/* Service */
+.services {
+  margin-top: 130px;
+  background: #fff6ed;
+}
+.service-container {
+  padding: 68px 0 100px;
+}
+.service-sub-heading {
+  color: #5e6085;
+  font-size: 1.6rem;
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}
+.service-heading {
+  text-align: center;
+  margin-top: 15px;
+}
+.service-content {
+  margin-top: 71px;
+  display: grid;
+  gap: 24px 86px;
+  grid-template-areas:
+    "a b c"
+    "d b f"
+    "e b g";
+}
+.service-item {
+  width: 294px;
+  height: 208px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 188, 122, 0.26);
+  background: #fff;
+  padding: 30px 22px 30px 28px;
+  cursor: pointer;
+}
+.service-item:first-child {
+  grid-area: a;
+}
+.service-item:nth-child(2) {
+  grid-area: d;
+}
+.service-item:nth-child(3) {
+  grid-area: e;
+}
+.service-item:nth-child(4) {
+  grid-area: c;
+}
+.service-item:nth-child(5) {
+  grid-area: f;
+}
+.service-item:nth-child(6) {
+  grid-area: g;
+}
+.service-item-heading {
+  font-size: 2.2rem;
+  font-weight: 600;
+  padding-left: 14px;
+  position: relative;
+}
+.service-item-heading::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 2px;
+  height: 22px;
+  background: linear-gradient(63deg, #ff5b2e 0%, #ffa187 100%);
+}
+.service-item-desc {
+  font-size: 1.4rem;
+  line-height: 171.429%;
+  margin-top: 18px;
+}
+.service-link {
+  display: flex;
+  align-items: center;
+  gap: 0 6px;
+  margin-top: 24px;
+}
+.service-link span {
+  color: #34396a;
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.service-block {
+  grid-area: b;
+  padding-top: 260px;
+}
+.service-img {
+  width: 410px;
+  height: 350px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #9df1fb 0%, #73d0db 100%);
+  position: relative;
+}
+.service-img img {
+  width: 447px;
+  height: 621px;
+  position: absolute;
+  object-fit: cover;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+}
+.service-btn {
+  -height: 56px;
+  margin-top: 45px;
+  min-width: 214px;
+  border-radius: 31px;
+  border: 1px solid rgba(255, 91, 46, 0.6);
+  box-shadow: 0px 13px 26px -8px rgba(255, 91, 46, 0.42);
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
