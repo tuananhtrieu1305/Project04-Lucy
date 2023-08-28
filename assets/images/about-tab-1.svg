@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 18" width="21" height="18">
+	<title>about-tab-1-svg</title>
+	<defs>
+		<linearGradient id="g1" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,18.058,-18.113,0,10.056,0)">
+			<stop offset="0" stop-color="#4c9ee2"/>
+			<stop offset="1" stop-color="#73bfff"/>
+		</linearGradient>
+		<linearGradient id="g2" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,13.498,-7.411,0,10.058,4.56)">
+			<stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
+			<stop offset="1" stop-color="#ffffff" stop-opacity=".59"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+		.s1 { fill: url(#g2) } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" fill-rule="evenodd" class="s0" d="m1.2 6.5c-0.2 0.2-0.3 0.6-0.1 0.8 0.2 0.3 0.6 0.4 0.8 0.2l0.5-0.4 0.8 10.4c0 0.3 0.2 0.6 0.5 0.6h12.5c0.4 0 0.6-0.3 0.6-0.6l0.8-10.5 0.6 0.5c0.2 0.2 0.6 0.1 0.8-0.2 0.2-0.2 0.1-0.6-0.1-0.8l-8.6-6.4c-0.2-0.1-0.5-0.1-0.7 0z"/>
+		<path id="Layer" fill-rule="evenodd" class="s1" d="m10.1 4.6c-0.3 0-0.6 0.2-0.6 0.5 0 0.3 0.3 0.5 0.6 0.5 0.3 0 0.5-0.2 0.5-0.5 0-0.3-0.2-0.5-0.5-0.5zm-0.2 2.1c-1.4 0-2.5 0.7-2.5 1.6 0 0.8 1.1 1.6 2.5 1.6 1.4 0 2.5-0.8 2.5-1.6 0-0.9-1.1-1.6-2.5-1.6zm2.3-0.6c0.3 0 0.5-0.2 0.5-0.5 0-0.3-0.2-0.5-0.5-0.5-0.3 0-0.6 0.2-0.6 0.5 0 0.3 0.3 0.5 0.6 0.5zm-4.3-1c-0.3 0-0.5 0.2-0.5 0.5 0 0.3 0.2 0.5 0.5 0.5 0.3 0 0.6-0.2 0.6-0.5 0-0.3-0.3-0.5-0.6-0.5zm2.2 5.5c-2.1 0-3.7 1.7-3.7 3.8v3.7h7.4v-3.7c0-2.1-1.7-3.8-3.7-3.8z"/>
+	</g>
+</svg>
