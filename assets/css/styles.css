@@ -260,12 +260,18 @@ a {
 }
 .hero-btn {
   max-width: 189px;
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
 }
-.hero-btn span {
-  margin-left: 16px;
-}
-.hero-btn svg {
-  margin-bottom: -4px;
+.hero-btn figure {
+  width: 20px;
+  height: 20px;
+  border-radius: 100rem;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hero-call {
   text-decoration: underline;
