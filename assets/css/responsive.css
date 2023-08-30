@@ -110,9 +110,49 @@
   .service-block {
     display: none;
   }
+  /* Team */
+  .team {
+    margin-top: 10px;
+  }
+  .team-container {
+    padding: 40px 0;
+  }
+  /* Review */
+  .review-media-wrap {
+    display: none;
+  }
+  /* Footer */
+  .footer {
+    margin-top: 20px;
+  }
 }
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 991.98px) {
+  /* Team */
+  .product-container {
+    max-width: calc(100% - 150px);
+  }
+  .team-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 30px;
+  }
+  /* Product */
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 60px;
+  }
+  /* Blog */
+  .blog-list {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+  }
+  /* Footer */
+  .footer-container {
+    gap: 0 82px;
+  }
+  .footer-right {
+    gap: 58px 10px;
+  }
 }
 /* Mobile */
 @media screen and (max-width: 767.98px) {
@@ -189,5 +229,77 @@
   }
   .service-btn {
     min-width: 80%;
+  }
+  /* Team */
+  .team-list {
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+  }
+  /* Product */
+  .product-container {
+    max-width: calc(100% - 74px);
+    padding: 40px 0;
+  }
+  .product-list {
+    grid-template-columns: 1fr;
+    gap: 20px 0;
+  }
+  .product-inner img {
+    display: none;
+  }
+  .product-heading {
+    font-size: 4rem;
+  }
+  /* Review */
+  .review-content {
+    margin: 0;
+  }
+  .review-item-content {
+    padding-top: 0;
+  }
+  .review-left-arrow,
+  .review-right-arrow {
+    display: none;
+  }
+  .review-heading {
+    font-size: 4rem;
+  }
+  .review-dots {
+    margin-top: 40px;
+  }
+  /* Blog */
+  .blog-top {
+    flex-direction: column;
+    gap: 20px 0;
+    text-align: center;
+  }
+  .blog-heading {
+    font-size: 4rem;
+  }
+  .blog-list {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .blog-item {
+    width: 100%;
+  }
+  .blog-item-icon {
+    width: 99.8%;
+  }
+  /* Footer */
+  .footer {
+    background: transparent;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 30px 0;
+    padding: 0;
+  }
+  .footer-left {
+    padding-top: 0;
+  }
+  .footer-right {
+    margin-bottom: 20px;
+    gap: 58px 20px;
   }
 }
